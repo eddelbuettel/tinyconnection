@@ -1,0 +1,17 @@
+Package: tinyconnection
+Type: Package
+Title: Minimal Yet Compliant Connection Creator
+Version: 0.0.1
+Authors@R: c(
+ person("Dirk", "Eddelbuettel", role = c("aut","cre"), email = "edd@debian.org"),
+ person("Mike", "Cheng", role = c("aut","cph")))
+Description: Demonstration of the creation of a custom connection without
+ upsetting R by not using API accessors. For now the package will only
+ work on files. The package is a simplified / modified variant of package
+ 'rconnection' by Mike Cheng.
+URL: https://github.com/eddelbuettel/tinyconnection
+BugReports: https://github.com/eddelbuettel/tinyconnection/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 6.0.1
+Suggests: tinytest

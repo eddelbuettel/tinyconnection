@@ -1,0 +1,4 @@
+#!/bin/sh
+
+rm -f src/*.o src/*.so src/connection/*.o inst/lib/*.so *~ */*~ */*/*~
+rmdir inst/lib
